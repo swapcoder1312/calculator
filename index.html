@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="assets/js/script.js"></script>
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="header">
+    <h1>CALCULATOR</h1>
+  </div><br><br>
+  <form>
+  <div class="form-group">
+   <label for="fno">FIRST NUMBER</label><br>
+   <input type="text" class="sno" name="fno" id="fno" placeholder="0">
+   </div>
+   <div class="form-group">
+   <label for="sno">SECOND NUMBER</label><br>
+   <input type="text" class="sno" name="sno" id="sno" placeholder="0">
+  </div>
+  <div class="btn-group">
+  <button type="button" class="btn" onclick="sum()">➕</button>
+  <button type="button" class="btn" onclick="sub()">➖</button>
+  <button type="button" class="btn" onclick="mul()">❌</button>
+  <button type="button" class="btn" onclick="divide()">➗</button>
+  <button type="button" class="btn" onclick="mod()">％</button>
+  <button type="button" class="btn" onclick="reset()">🔄</button>
+  </div>
+
+  <div class="form-group">
+    <label for="res">RESULT</label><br>
+    <input type="text" name="res" class="result-box" id="res" placeholder="0" readonly>
+  </div>
+  </form>
+</body>
+</html>
